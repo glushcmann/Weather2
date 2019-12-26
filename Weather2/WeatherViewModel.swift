@@ -16,7 +16,7 @@ class WeatherViewModel {
     
     private struct Constants {
         static let URLPrefix = "http://api.openweathermap.org/data/2.5/weather?q="
-        static let URLPostfix = "&appid=5dbf6189c7cbcff8401f6e13e73c3aa8"
+        static let URLPostfix = "&units=metric&appid=5dbf6189c7cbcff8401f6e13e73c3aa8"
     }
     
     var cityName = PublishSubject<String>()
